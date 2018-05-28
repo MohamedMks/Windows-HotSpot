@@ -6,8 +6,10 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Net;
 using System.Reflection;
+using System.Security.Principal;
 using System.Windows.Forms;
 
+using MB;
 using Microsoft.VisualBasic;
 using Windows_HOSTSPOT.Properties;
 
@@ -31,8 +33,6 @@ namespace HotSpotWindows
                Settings.Default.UpgradeRequired = false;
                Settings.Default.Save();
             }
-			
-			
 		}
 		// 
 		void BtnactivateClick(object sender, System.EventArgs e)
@@ -63,7 +63,7 @@ namespace HotSpotWindows
 						try
 						{ startInfo.Arguments = "/C netsh wlan set hostednetwork mode=allow ssid="+NameBox.Text+" key="+RePassBox.Text;	} //enable - allow
 						catch
-						{ MessageBox.Show("Shit happens");  }
+						{ MessageBox.Show("Bugs happens");  }
 						break;
 					default:
 						break;
@@ -130,6 +130,18 @@ namespace HotSpotWindows
 		}
 		void BtnstClick(object sender, System.EventArgs e)
 		{
+			if(IsAdministrator() == false){
+				try{
+                  string result = MyCMB.ShowBox("Please run this as Administrator", "info" ,3);
+                  if (result.Equals("1")){
+                    System.Environment.Exit(0);
+                  }else if (result.Equals("2")) {}
+                }catch{ 
+        		  
+        	    }
+				btnst.Enabled = false;
+		    }else if(IsAdministrator() == true){
+
 			if(Settings.Default.DataSaved){
 			System.Diagnostics.Process process = new System.Diagnostics.Process();
 			System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
@@ -139,9 +151,19 @@ namespace HotSpotWindows
 			process.StartInfo = startInfo;
 			process.Start();
 			
-			MessageBox.Show("Hostpot Started \n    DONE ..... ");
+			  try{
+                  string result = MyCMB.ShowBox("Hostpot Started", "DONE ..." ,3);
+                  if (result.Equals("1")){
+                    
+                  }else if (result.Equals("2")) {}
+                }catch{ 
+        		  
+        	    }
 			}else if(!Settings.Default.DataSaved){
 				MessageBox.Show("Please save data first");
+			}
+				
+								
 			}
 		}
 		void BtnexitClick(object sender, System.EventArgs e)
@@ -150,7 +172,8 @@ namespace HotSpotWindows
 		}
 		void Timer1Tick(object sender, System.EventArgs e)
 		{
-			timer1.Enabled=false;
+			lbltime.Text = DateTime.Now.ToShortTimeString();
+			//timer1.Enabled=false;
 			SendKeys.Send("{ESC}"); 
 		}
 		void MainFormLoad(object sender, System.EventArgs e)
@@ -221,12 +244,14 @@ namespace HotSpotWindows
                 //PassBox.BackColor = Color.White;
                 RePassBox.Enabled = true;
             }
-			else if (PassBox.Text != RePassBox.Text)
+		    if (PassBox.Text != RePassBox.Text)
             {
                 PassBox.BackColor = Color.Green;
                 RePassBox.BackColor = Color.Red;
                 btnactivate.Enabled = false;
             }
+		    
+		    lblpassCounter.Text = PassBox.Text.Length.ToString();
 			
 		}
 		void RePassBoxTextChanged(object sender, EventArgs e)
@@ -244,6 +269,7 @@ namespace HotSpotWindows
                 RePassBox.BackColor = Color.Red;
                 btnactivate.Enabled = false;
             }
+            lblRePassCounter.Text = RePassBox.Text.Length.ToString();
 
 		}
 		void BoxShowPassCheckedChanged(object sender, EventArgs e)
@@ -276,6 +302,14 @@ namespace HotSpotWindows
 		{
 			lbltime.Text = DateTime.Now.ToShortTimeString();
 		}
+		
+		
+		bool IsAdministrator()
+        {
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            return principal.IsInRole (WindowsBuiltInRole.Administrator);
+        }
 	}
 	
 }

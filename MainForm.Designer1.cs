@@ -61,6 +61,105 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Bottom, Right.
+		/// </summary>
+		internal static System.Windows.Forms.AnchorStyles automaticUpdater1_Anchor {
+			get {
+				object obj = ResourceManager.GetObject("automaticUpdater1.Anchor", resourceCulture);
+				return ((System.Windows.Forms.AnchorStyles)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=344,Y=231}.
+		/// </summary>
+		internal static System.Drawing.Point automaticUpdater1_Location {
+			get {
+				object obj = ResourceManager.GetObject("automaticUpdater1.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=16, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size automaticUpdater1_Size {
+			get {
+				object obj = ResourceManager.GetObject("automaticUpdater1.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 24.
+		/// </summary>
+		internal static int automaticUpdater1_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("automaticUpdater1.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=138}.
+		/// </summary>
+		internal static System.Drawing.Point BoxShowPass_Location {
+			get {
+				object obj = ResourceManager.GetObject("BoxShowPass.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=104, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size BoxShowPass_Size {
+			get {
+				object obj = ResourceManager.GetObject("BoxShowPass.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 22.
+		/// </summary>
+		internal static int BoxShowPass_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("BoxShowPass.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Show Password.
+		/// </summary>
+		internal static string BoxShowPass_Text {
+			get {
+				return ResourceManager.GetString("BoxShowPass.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to False.
+		/// </summary>
+		internal static bool btnactivate_Enabled {
+			get {
+				object obj = ResourceManager.GetObject("btnactivate.Enabled", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font btnactivate_Font {
+			get {
+				object obj = ResourceManager.GetObject("btnactivate.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Looks up a localized resource of type System.Drawing.Bitmap.
 		/// </summary>
 		internal static System.Drawing.Bitmap btnactivate_Image {
@@ -71,12 +170,51 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Bitmap.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=265,Y=131}.
 		/// </summary>
-		internal static System.Drawing.Bitmap btnexit_Image {
+		internal static System.Drawing.Point btnactivate_Location {
 			get {
-				object obj = ResourceManager.GetObject("btnexit.Image", resourceCulture);
-				return ((System.Drawing.Bitmap)(obj));
+				object obj = ResourceManager.GetObject("btnactivate.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=96, Height=30}.
+		/// </summary>
+		internal static System.Drawing.Size btnactivate_Size {
+			get {
+				object obj = ResourceManager.GetObject("btnactivate.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 3.
+		/// </summary>
+		internal static int btnactivate_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("btnactivate.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Save info.
+		/// </summary>
+		internal static string btnactivate_Text {
+			get {
+				return ResourceManager.GetString("btnactivate.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font btnremove_Font {
+			get {
+				object obj = ResourceManager.GetObject("btnremove.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
 			}
 		}
 		
@@ -91,6 +229,55 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=180}.
+		/// </summary>
+		internal static System.Drawing.Point btnremove_Location {
+			get {
+				object obj = ResourceManager.GetObject("btnremove.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=173, Height=45}.
+		/// </summary>
+		internal static System.Drawing.Size btnremove_Size {
+			get {
+				object obj = ResourceManager.GetObject("btnremove.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 4.
+		/// </summary>
+		internal static int btnremove_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("btnremove.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to STOP.
+		/// </summary>
+		internal static string btnremove_Text {
+			get {
+				return ResourceManager.GetString("btnremove.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font btnst_Font {
+			get {
+				object obj = ResourceManager.GetObject("btnst.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Looks up a localized resource of type System.Drawing.Bitmap.
 		/// </summary>
 		internal static System.Drawing.Bitmap btnst_Image {
@@ -101,12 +288,985 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=188,Y=180}.
+		/// </summary>
+		internal static System.Drawing.Point btnst_Location {
+			get {
+				object obj = ResourceManager.GetObject("btnst.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=173, Height=45}.
+		/// </summary>
+		internal static System.Drawing.Size btnst_Size {
+			get {
+				object obj = ResourceManager.GetObject("btnst.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 5.
+		/// </summary>
+		internal static int btnst_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("btnst.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to START.
+		/// </summary>
+		internal static string btnst_Text {
+			get {
+				return ResourceManager.GetString("btnst.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Bottom, Right.
+		/// </summary>
+		internal static System.Windows.Forms.AnchorStyles btnupdate_Anchor {
+			get {
+				object obj = ResourceManager.GetObject("btnupdate.Anchor", resourceCulture);
+				return ((System.Windows.Forms.AnchorStyles)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=253}.
+		/// </summary>
+		internal static System.Drawing.Point btnupdate_Location {
+			get {
+				object obj = ResourceManager.GetObject("btnupdate.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=62, Height=21}.
+		/// </summary>
+		internal static System.Drawing.Size btnupdate_Size {
+			get {
+				object obj = ResourceManager.GetObject("btnupdate.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 15.
+		/// </summary>
+		internal static int btnupdate_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("btnupdate.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Update.
+		/// </summary>
+		internal static string btnupdate_Text {
+			get {
+				return ResourceManager.GetString("btnupdate.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool label1_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label1.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label1_Font {
+			get {
+				object obj = ResourceManager.GetObject("label1.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=57}.
+		/// </summary>
+		internal static System.Drawing.Point label1_Location {
+			get {
+				object obj = ResourceManager.GetObject("label1.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label1_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label1.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=47, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label1_Size {
+			get {
+				object obj = ResourceManager.GetObject("label1.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 12.
+		/// </summary>
+		internal static int label1_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label1.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Mode.
+		/// </summary>
+		internal static string label1_Text {
+			get {
+				return ResourceManager.GetString("label1.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool label2_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label2.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label2_Font {
+			get {
+				object obj = ResourceManager.GetObject("label2.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=9}.
+		/// </summary>
+		internal static System.Drawing.Point label2_Location {
+			get {
+				object obj = ResourceManager.GetObject("label2.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label2_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label2.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=79, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label2_Size {
+			get {
+				object obj = ResourceManager.GetObject("label2.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 16.
+		/// </summary>
+		internal static int label2_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label2.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Wifi Name.
+		/// </summary>
+		internal static string label2_Text {
+			get {
+				return ResourceManager.GetString("label2.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool label3_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label3.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label3_Font {
+			get {
+				object obj = ResourceManager.GetObject("label3.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=83}.
+		/// </summary>
+		internal static System.Drawing.Point label3_Location {
+			get {
+				object obj = ResourceManager.GetObject("label3.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label3_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label3.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=76, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label3_Size {
+			get {
+				object obj = ResourceManager.GetObject("label3.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 17.
+		/// </summary>
+		internal static int label3_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label3.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Password.
+		/// </summary>
+		internal static string label3_Text {
+			get {
+				return ResourceManager.GetString("label3.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool label4_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label4.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label4_Font {
+			get {
+				object obj = ResourceManager.GetObject("label4.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=109}.
+		/// </summary>
+		internal static System.Drawing.Point label4_Location {
+			get {
+				object obj = ResourceManager.GetObject("label4.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label4_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label4.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=84, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label4_Size {
+			get {
+				object obj = ResourceManager.GetObject("label4.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 21.
+		/// </summary>
+		internal static int label4_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label4.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Retry Pass.
+		/// </summary>
+		internal static string label4_Text {
+			get {
+				return ResourceManager.GetString("label4.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool label5_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label5.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label5_Font {
+			get {
+				object obj = ResourceManager.GetObject("label5.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=28}.
+		/// </summary>
+		internal static System.Drawing.Point label5_Location {
+			get {
+				object obj = ResourceManager.GetObject("label5.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label5_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label5.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=96, Height=13}.
+		/// </summary>
+		internal static System.Drawing.Size label5_Size {
+			get {
+				object obj = ResourceManager.GetObject("label5.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 23.
+		/// </summary>
+		internal static int label5_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label5.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to No spaces please*.
+		/// </summary>
+		internal static string label5_Text {
+			get {
+				return ResourceManager.GetString("label5.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool lblpassCounter_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font lblpassCounter_Font {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=345,Y=82}.
+		/// </summary>
+		internal static System.Drawing.Point lblpassCounter_Location {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft lblpassCounter_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=13}.
+		/// </summary>
+		internal static System.Drawing.Size lblpassCounter_Size {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 25.
+		/// </summary>
+		internal static int lblpassCounter_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("lblpassCounter.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to 0.
+		/// </summary>
+		internal static string lblpassCounter_Text {
+			get {
+				return ResourceManager.GetString("lblpassCounter.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool lblRePassCounter_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font lblRePassCounter_Font {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=345,Y=108}.
+		/// </summary>
+		internal static System.Drawing.Point lblRePassCounter_Location {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft lblRePassCounter_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=13}.
+		/// </summary>
+		internal static System.Drawing.Size lblRePassCounter_Size {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 26.
+		/// </summary>
+		internal static int lblRePassCounter_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("lblRePassCounter.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to 0.
+		/// </summary>
+		internal static string lblRePassCounter_Text {
+			get {
+				return ResourceManager.GetString("lblRePassCounter.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=31, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size lbltime_Size {
+			get {
+				object obj = ResourceManager.GetObject("lbltime.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to time.
+		/// </summary>
+		internal static string lbltime_Text {
+			get {
+				return ResourceManager.GetString("lbltime.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=23, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size lblver_Size {
+			get {
+				object obj = ResourceManager.GetObject("lblver.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to ver.
+		/// </summary>
+		internal static string lblver_Text {
+			get {
+				return ResourceManager.GetString("lblver.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=5}.
+		/// </summary>
+		internal static System.Drawing.Point NameBox_Location {
+			get {
+				object obj = ResourceManager.GetObject("NameBox.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 20.
+		/// </summary>
+		internal static int NameBox_MaxLength {
+			get {
+				object obj = ResourceManager.GetObject("NameBox.MaxLength", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		/// </summary>
+		internal static System.Drawing.Size NameBox_Size {
+			get {
+				object obj = ResourceManager.GetObject("NameBox.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 18.
+		/// </summary>
+		internal static int NameBox_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("NameBox.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=79}.
+		/// </summary>
+		internal static System.Drawing.Point PassBox_Location {
+			get {
+				object obj = ResourceManager.GetObject("PassBox.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 20.
+		/// </summary>
+		internal static int PassBox_MaxLength {
+			get {
+				object obj = ResourceManager.GetObject("PassBox.MaxLength", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Char similar to *.
+		/// </summary>
+		internal static char PassBox_PasswordChar {
+			get {
+				object obj = ResourceManager.GetObject("PassBox.PasswordChar", resourceCulture);
+				return ((char)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		/// </summary>
+		internal static System.Drawing.Size PassBox_Size {
+			get {
+				object obj = ResourceManager.GetObject("PassBox.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 19.
+		/// </summary>
+		internal static int PassBox_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("PassBox.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to False.
+		/// </summary>
+		internal static bool RePassBox_Enabled {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.Enabled", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=105}.
+		/// </summary>
+		internal static System.Drawing.Point RePassBox_Location {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 20.
+		/// </summary>
+		internal static int RePassBox_MaxLength {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.MaxLength", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Char similar to *.
+		/// </summary>
+		internal static char RePassBox_PasswordChar {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.PasswordChar", resourceCulture);
+				return ((char)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		/// </summary>
+		internal static System.Drawing.Size RePassBox_Size {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 20.
+		/// </summary>
+		internal static int RePassBox_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("RePassBox.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Looks up a localized resource of type System.Drawing.Bitmap.
 		/// </summary>
 		internal static System.Drawing.Bitmap statusStrip1_BackgroundImage {
 			get {
 				object obj = ResourceManager.GetObject("statusStrip1.BackgroundImage", resourceCulture);
 				return ((System.Drawing.Bitmap)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=0,Y=250}.
+		/// </summary>
+		internal static System.Drawing.Point statusStrip1_Location {
+			get {
+				object obj = ResourceManager.GetObject("statusStrip1.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to Yes.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft statusStrip1_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("statusStrip1.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=370, Height=24}.
+		/// </summary>
+		internal static System.Drawing.Size statusStrip1_Size {
+			get {
+				object obj = ResourceManager.GetObject("statusStrip1.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 11.
+		/// </summary>
+		internal static int statusStrip1_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("statusStrip1.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to statusStrip1.
+		/// </summary>
+		internal static string statusStrip1_Text {
+			get {
+				return ResourceManager.GetString("statusStrip1.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Arabic Typesetting, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font toolStripStatusLabel1_Font {
+			get {
+				object obj = ResourceManager.GetObject("toolStripStatusLabel1.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=105, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size toolStripStatusLabel1_Size {
+			get {
+				object obj = ResourceManager.GetObject("toolStripStatusLabel1.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to By: MohamedMks.
+		/// </summary>
+		internal static string toolStripStatusLabel1_Text {
+			get {
+				return ResourceManager.GetString("toolStripStatusLabel1.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size toolStripStatusLabel2_Size {
+			get {
+				object obj = ResourceManager.GetObject("toolStripStatusLabel2.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to |.
+		/// </summary>
+		internal static string toolStripStatusLabel2_Text {
+			get {
+				return ResourceManager.GetString("toolStripStatusLabel2.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size toolStripStatusLabel3_Size {
+			get {
+				object obj = ResourceManager.GetObject("toolStripStatusLabel3.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to |.
+		/// </summary>
+		internal static string toolStripStatusLabel3_Text {
+			get {
+				return ResourceManager.GetString("toolStripStatusLabel3.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		/// </summary>
+		internal static System.Drawing.Size toolStripStatusLabel4_Size {
+			get {
+				object obj = ResourceManager.GetObject("toolStripStatusLabel4.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to |.
+		/// </summary>
+		internal static string toolStripStatusLabel4_Text {
+			get {
+				return ResourceManager.GetString("toolStripStatusLabel4.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Top, Bottom, Left, Right.
+		/// </summary>
+		internal static System.Windows.Forms.AnchorStyles Windowslist_Anchor {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.Anchor", resourceCulture);
+				return ((System.Windows.Forms.AnchorStyles)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to False.
+		/// </summary>
+		internal static bool Windowslist_Enabled {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.Enabled", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=52}.
+		/// </summary>
+		internal static System.Drawing.Point Windowslist_Location {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 10.
+		/// </summary>
+		internal static int Windowslist_MaxDropDownItems {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.MaxDropDownItems", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft Windowslist_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=127, Height=21}.
+		/// </summary>
+		internal static System.Drawing.Size Windowslist_Size {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 2.
+		/// </summary>
+		internal static int Windowslist_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("Windowslist.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to SECURED.
+		/// </summary>
+		internal static string Windowslist_Text {
+			get {
+				return ResourceManager.GetString("Windowslist.Text", resourceCulture);
 			}
 		}
 	}
