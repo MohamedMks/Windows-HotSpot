@@ -170,7 +170,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=265,Y=131}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=243,Y=131}.
 		/// </summary>
 		internal static System.Drawing.Point btnactivate_Location {
 			get {

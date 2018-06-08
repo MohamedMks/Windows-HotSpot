@@ -116,34 +116,33 @@ namespace HotSpotWindows
 			// 
 			// toolStripStatusLabel2
 			// 
-			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
 			resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
+			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
 			// 
 			// lbltime
 			// 
-			this.lbltime.Name = "lbltime";
 			resources.ApplyResources(this.lbltime, "lbltime");
+			this.lbltime.Name = "lbltime";
 			this.lbltime.Click += new System.EventHandler(this.LbltimeClick);
 			// 
 			// toolStripStatusLabel3
 			// 
-			this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
 			resources.ApplyResources(this.toolStripStatusLabel3, "toolStripStatusLabel3");
+			this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
 			// 
 			// lblver
 			// 
-			this.lblver.Name = "lblver";
 			resources.ApplyResources(this.lblver, "lblver");
+			this.lblver.Name = "lblver";
 			// 
 			// toolStripStatusLabel4
 			// 
-			this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
 			resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
+			this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
 			// 
 			// timer1
 			// 
-			this.timer1.Enabled = true;
-			this.timer1.Interval = 1000;
+			this.timer1.Interval = 59000;
 			this.timer1.Tick += new System.EventHandler(this.Timer1Tick);
 			// 
 			// label1
@@ -197,8 +196,8 @@ namespace HotSpotWindows
 			// 
 			// BoxShowPass
 			// 
-			this.BoxShowPass.BackColor = System.Drawing.Color.Transparent;
 			resources.ApplyResources(this.BoxShowPass, "BoxShowPass");
+			this.BoxShowPass.BackColor = System.Drawing.Color.Transparent;
 			this.BoxShowPass.Name = "BoxShowPass";
 			this.BoxShowPass.UseVisualStyleBackColor = false;
 			this.BoxShowPass.CheckedChanged += new System.EventHandler(this.BoxShowPassCheckedChanged);
