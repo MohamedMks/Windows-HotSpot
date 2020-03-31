@@ -20,7 +20,8 @@
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>False</RunCodeAnalysis>
-    <TargetFrameworkProfile />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <SourceAnalysisOverrideSettingsFile>D:\Dev\SharpDevelop Projects\My_HOTSPOT\My_HOTSPOT\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
     <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
     <ApplicationIcon>favicon.ico</ApplicationIcon>

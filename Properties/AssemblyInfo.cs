@@ -8,12 +8,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle ("My Wifi hotspot")]
-[assembly: AssemblyDescription ("By Mohamedmks")]
+[assembly: AssemblyTitle ("Wifi hotspot")]
+[assembly: AssemblyDescription ("By: Mohamedmks")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("Mohamedmks")]
-[assembly: AssemblyProduct ("My Wifi hotspot")]
-[assembly: AssemblyCopyright ("No Copyright 2018")]
+[assembly: AssemblyProduct ("Wifi hotspot")]
+[assembly: AssemblyCopyright ("No Copyright 2018-2020")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 // This sets the default COM visibility of types in the assembly to invisible.
@@ -25,6 +25,6 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can use the default the Revision and 
 // Build Numbers by using the '*' as shown below:
-[assembly: AssemblyVersion ("1.2")]
-[assembly: AssemblyFileVersion ("1.2")]
+[assembly: AssemblyVersion ("2.0")]
+[assembly: AssemblyFileVersion ("2.0")]
 [assembly: NeutralResourcesLanguage ("en")]

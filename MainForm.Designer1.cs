@@ -61,6 +61,55 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Top, Left, Right.
+		/// </summary>
+		internal static System.Windows.Forms.AnchorStyles adapter_list_Anchor {
+			get {
+				object obj = ResourceManager.GetObject("adapter_list.Anchor", resourceCulture);
+				return ((System.Windows.Forms.AnchorStyles)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=128,Y=9}.
+		/// </summary>
+		internal static System.Drawing.Point adapter_list_Location {
+			get {
+				object obj = ResourceManager.GetObject("adapter_list.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=404, Height=21}.
+		/// </summary>
+		internal static System.Drawing.Size adapter_list_Size {
+			get {
+				object obj = ResourceManager.GetObject("adapter_list.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 28.
+		/// </summary>
+		internal static int adapter_list_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("adapter_list.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Select Adapter.
+		/// </summary>
+		internal static string adapter_list_Text {
+			get {
+				return ResourceManager.GetString("adapter_list.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
 		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Bottom, Right.
 		/// </summary>
 		internal static System.Windows.Forms.AnchorStyles automaticUpdater1_Anchor {
@@ -71,7 +120,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=344,Y=231}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=530,Y=305}.
 		/// </summary>
 		internal static System.Drawing.Point automaticUpdater1_Location {
 			get {
@@ -101,7 +150,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=138}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=210,Y=113}.
 		/// </summary>
 		internal static System.Drawing.Point BoxShowPass_Location {
 			get {
@@ -150,7 +199,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font btnactivate_Font {
 			get {
@@ -170,7 +219,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=243,Y=131}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=426,Y=108}.
 		/// </summary>
 		internal static System.Drawing.Point btnactivate_Location {
 			get {
@@ -180,7 +229,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=96, Height=30}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=87, Height=24}.
 		/// </summary>
 		internal static System.Drawing.Size btnactivate_Size {
 			get {
@@ -209,7 +258,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font btnremove_Font {
 			get {
@@ -229,7 +278,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=180}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=137}.
 		/// </summary>
 		internal static System.Drawing.Point btnremove_Location {
 			get {
@@ -239,7 +288,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=173, Height=45}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=110, Height=31}.
 		/// </summary>
 		internal static System.Drawing.Size btnremove_Size {
 			get {
@@ -268,7 +317,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font btnst_Font {
 			get {
@@ -288,7 +337,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=188,Y=180}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=403,Y=137}.
 		/// </summary>
 		internal static System.Drawing.Point btnst_Location {
 			get {
@@ -298,7 +347,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=173, Height=45}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=110, Height=31}.
 		/// </summary>
 		internal static System.Drawing.Size btnst_Size {
 			get {
@@ -337,7 +386,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=253}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=0,Y=327}.
 		/// </summary>
 		internal static System.Drawing.Point btnupdate_Location {
 			get {
@@ -376,6 +425,75 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=512,Y=178}.
+		/// </summary>
+		internal static System.Drawing.Point data_table_Location {
+			get {
+				object obj = ResourceManager.GetObject("data_table.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=20, Height=79}.
+		/// </summary>
+		internal static System.Drawing.Size data_table_Size {
+			get {
+				object obj = ResourceManager.GetObject("data_table.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 31.
+		/// </summary>
+		internal static int data_table_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("data_table.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to False.
+		/// </summary>
+		internal static bool data_table_Visible {
+			get {
+				object obj = ResourceManager.GetObject("data_table.Visible", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Control.
+		/// </summary>
+		internal static string edit_HeaderText {
+			get {
+				return ResourceManager.GetString("edit.HeaderText", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 80.
+		/// </summary>
+		internal static int edit_MinimumWidth {
+			get {
+				object obj = ResourceManager.GetObject("edit.MinimumWidth", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 80.
+		/// </summary>
+		internal static int edit_Width {
+			get {
+				object obj = ResourceManager.GetObject("edit.Width", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Looks up a localized resource of type System.Boolean similar to True.
 		/// </summary>
 		internal static bool label1_AutoSize {
@@ -386,7 +504,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font label1_Font {
 			get {
@@ -396,7 +514,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=57}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=128,Y=63}.
 		/// </summary>
 		internal static System.Drawing.Point label1_Location {
 			get {
@@ -455,7 +573,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font label2_Font {
 			get {
@@ -465,7 +583,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=9}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=9,Y=36}.
 		/// </summary>
 		internal static System.Drawing.Point label2_Location {
 			get {
@@ -485,7 +603,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=79, Height=16}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=49, Height=16}.
 		/// </summary>
 		internal static System.Drawing.Size label2_Size {
 			get {
@@ -505,7 +623,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized string similar to Wifi Name.
+		///   Looks up a localized string similar to Name.
 		/// </summary>
 		internal static string label2_Text {
 			get {
@@ -524,7 +642,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font label3_Font {
 			get {
@@ -534,7 +652,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=83}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=9,Y=62}.
 		/// </summary>
 		internal static System.Drawing.Point label3_Location {
 			get {
@@ -554,7 +672,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=76, Height=16}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=43, Height=16}.
 		/// </summary>
 		internal static System.Drawing.Size label3_Size {
 			get {
@@ -574,7 +692,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized string similar to Password.
+		///   Looks up a localized string similar to Pass.
 		/// </summary>
 		internal static string label3_Text {
 			get {
@@ -593,7 +711,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9.75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font label4_Font {
 			get {
@@ -603,7 +721,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=109}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=9,Y=90}.
 		/// </summary>
 		internal static System.Drawing.Point label4_Location {
 			get {
@@ -623,7 +741,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=84, Height=16}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=45, Height=16}.
 		/// </summary>
 		internal static System.Drawing.Size label4_Size {
 			get {
@@ -643,7 +761,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized string similar to Retry Pass.
+		///   Looks up a localized string similar to Retry.
 		/// </summary>
 		internal static string label4_Text {
 			get {
@@ -662,7 +780,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8,25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font label5_Font {
 			get {
@@ -672,7 +790,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=28}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=436,Y=39}.
 		/// </summary>
 		internal static System.Drawing.Point label5_Location {
 			get {
@@ -723,6 +841,134 @@ namespace Windows_HOSTSPOT {
 		/// <summary>
 		///   Looks up a localized resource of type System.Boolean similar to True.
 		/// </summary>
+		internal static bool label6_AutoSize {
+			get {
+				object obj = ResourceManager.GetObject("label6.AutoSize", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=9,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label6_Font {
+			get {
+				object obj = ResourceManager.GetObject("label6.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
+		/// </summary>
+		internal static System.Windows.Forms.ImeMode label6_ImeMode {
+			get {
+				object obj = ResourceManager.GetObject("label6.ImeMode", resourceCulture);
+				return ((System.Windows.Forms.ImeMode)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=10}.
+		/// </summary>
+		internal static System.Drawing.Point label6_Location {
+			get {
+				object obj = ResourceManager.GetObject("label6.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
+		/// </summary>
+		internal static System.Windows.Forms.RightToLeft label6_RightToLeft {
+			get {
+				object obj = ResourceManager.GetObject("label6.RightToLeft", resourceCulture);
+				return ((System.Windows.Forms.RightToLeft)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=63, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label6_Size {
+			get {
+				object obj = ResourceManager.GetObject("label6.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 27.
+		/// </summary>
+		internal static int label6_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label6.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Adapter.
+		/// </summary>
+		internal static string label6_Text {
+			get {
+				return ResourceManager.GetString("label6.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8,25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		/// </summary>
+		internal static System.Drawing.Font label7_Font {
+			get {
+				object obj = ResourceManager.GetObject("label7.Font", resourceCulture);
+				return ((System.Drawing.Font)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=13,Y=307}.
+		/// </summary>
+		internal static System.Drawing.Point label7_Location {
+			get {
+				object obj = ResourceManager.GetObject("label7.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=162, Height=16}.
+		/// </summary>
+		internal static System.Drawing.Size label7_Size {
+			get {
+				object obj = ResourceManager.GetObject("label7.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 33.
+		/// </summary>
+		internal static int label7_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("label7.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to #Stay_Home   بقا فدارك#.
+		/// </summary>
+		internal static string label7_Text {
+			get {
+				return ResourceManager.GetString("label7.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
 		internal static bool lblpassCounter_AutoSize {
 			get {
 				object obj = ResourceManager.GetObject("lblpassCounter.AutoSize", resourceCulture);
@@ -731,7 +977,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8,25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font lblpassCounter_Font {
 			get {
@@ -741,7 +987,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=345,Y=82}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=519,Y=68}.
 		/// </summary>
 		internal static System.Drawing.Point lblpassCounter_Location {
 			get {
@@ -800,7 +1046,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8,25, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
 		internal static System.Drawing.Font lblRePassCounter_Font {
 			get {
@@ -810,7 +1056,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=345,Y=108}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=519,Y=92}.
 		/// </summary>
 		internal static System.Drawing.Point lblRePassCounter_Location {
 			get {
@@ -859,7 +1105,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=31, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=31, Height=17}.
 		/// </summary>
 		internal static System.Drawing.Size lbltime_Size {
 			get {
@@ -878,7 +1124,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=23, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=23, Height=17}.
 		/// </summary>
 		internal static System.Drawing.Size lblver_Size {
 			get {
@@ -897,7 +1143,55 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=5}.
+		///   Looks up a localized string similar to Mac.
+		/// </summary>
+		internal static string mac_HeaderText {
+			get {
+				return ResourceManager.GetString("mac.HeaderText", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 190.
+		/// </summary>
+		internal static int mac_MinimumWidth {
+			get {
+				object obj = ResourceManager.GetObject("mac.MinimumWidth", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 190.
+		/// </summary>
+		internal static int mac_Width {
+			get {
+				object obj = ResourceManager.GetObject("mac.Width", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Name.
+		/// </summary>
+		internal static string name_HeaderText {
+			get {
+				return ResourceManager.GetString("name.HeaderText", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 150.
+		/// </summary>
+		internal static int name_Width {
+			get {
+				object obj = ResourceManager.GetObject("name.Width", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=128,Y=35}.
 		/// </summary>
 		internal static System.Drawing.Point NameBox_Location {
 			get {
@@ -917,7 +1211,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=292, Height=20}.
 		/// </summary>
 		internal static System.Drawing.Size NameBox_Size {
 			get {
@@ -937,7 +1231,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=79}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=210,Y=61}.
 		/// </summary>
 		internal static System.Drawing.Point PassBox_Location {
 			get {
@@ -967,7 +1261,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=303, Height=20}.
 		/// </summary>
 		internal static System.Drawing.Size PassBox_Size {
 			get {
@@ -997,7 +1291,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=105}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=210,Y=87}.
 		/// </summary>
 		internal static System.Drawing.Point RePassBox_Location {
 			get {
@@ -1027,7 +1321,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=214, Height=20}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=303, Height=20}.
 		/// </summary>
 		internal static System.Drawing.Size RePassBox_Size {
 			get {
@@ -1057,7 +1351,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=0,Y=250}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=0,Y=326}.
 		/// </summary>
 		internal static System.Drawing.Point statusStrip1_Location {
 			get {
@@ -1077,7 +1371,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=370, Height=24}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=556, Height=22}.
 		/// </summary>
 		internal static System.Drawing.Size statusStrip1_Size {
 			get {
@@ -1106,17 +1400,126 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Arabic Typesetting, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+		///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15,75, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 		/// </summary>
-		internal static System.Drawing.Font toolStripStatusLabel1_Font {
+		internal static System.Drawing.Font tbn_info_Font {
 			get {
-				object obj = ResourceManager.GetObject("toolStripStatusLabel1.Font", resourceCulture);
+				object obj = ResourceManager.GetObject("tbn_info.Font", resourceCulture);
 				return ((System.Drawing.Font)(obj));
 			}
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=105, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Bitmap.
+		/// </summary>
+		internal static System.Drawing.Bitmap tbn_info_Image {
+			get {
+				object obj = ResourceManager.GetObject("tbn_info.Image", resourceCulture);
+				return ((System.Drawing.Bitmap)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
+		/// </summary>
+		internal static System.Windows.Forms.ImeMode tbn_info_ImeMode {
+			get {
+				object obj = ResourceManager.GetObject("tbn_info.ImeMode", resourceCulture);
+				return ((System.Windows.Forms.ImeMode)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=204,Y=137}.
+		/// </summary>
+		internal static System.Drawing.Point tbn_info_Location {
+			get {
+				object obj = ResourceManager.GetObject("tbn_info.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=110, Height=31}.
+		/// </summary>
+		internal static System.Drawing.Size tbn_info_Size {
+			get {
+				object obj = ResourceManager.GetObject("tbn_info.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 30.
+		/// </summary>
+		internal static int tbn_info_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("tbn_info.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized string similar to Info.
+		/// </summary>
+		internal static string tbn_info_Text {
+			get {
+				return ResourceManager.GetString("tbn_info.Text", resourceCulture);
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=12,Y=171}.
+		/// </summary>
+		internal static System.Drawing.Point text_result_Location {
+			get {
+				object obj = ResourceManager.GetObject("text_result.Location", resourceCulture);
+				return ((System.Drawing.Point)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Boolean similar to True.
+		/// </summary>
+		internal static bool text_result_Multiline {
+			get {
+				object obj = ResourceManager.GetObject("text_result.Multiline", resourceCulture);
+				return ((bool)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Windows.Forms.ScrollBars similar to Vertical.
+		/// </summary>
+		internal static System.Windows.Forms.ScrollBars text_result_ScrollBars {
+			get {
+				object obj = ResourceManager.GetObject("text_result.ScrollBars", resourceCulture);
+				return ((System.Windows.Forms.ScrollBars)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=520, Height=133}.
+		/// </summary>
+		internal static System.Drawing.Size text_result_Size {
+			get {
+				object obj = ResourceManager.GetObject("text_result.Size", resourceCulture);
+				return ((System.Drawing.Size)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Int32 similar to 29.
+		/// </summary>
+		internal static int text_result_TabIndex {
+			get {
+				object obj = ResourceManager.GetObject("text_result.TabIndex", resourceCulture);
+				return ((int)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=0, Height=0}.
 		/// </summary>
 		internal static System.Drawing.Size toolStripStatusLabel1_Size {
 			get {
@@ -1126,16 +1529,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized string similar to By: MohamedMks.
-		/// </summary>
-		internal static string toolStripStatusLabel1_Text {
-			get {
-				return ResourceManager.GetString("toolStripStatusLabel1.Text", resourceCulture);
-			}
-		}
-		
-		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=17}.
 		/// </summary>
 		internal static System.Drawing.Size toolStripStatusLabel2_Size {
 			get {
@@ -1154,7 +1548,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=17}.
 		/// </summary>
 		internal static System.Drawing.Size toolStripStatusLabel3_Size {
 			get {
@@ -1173,7 +1567,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=19}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=10, Height=17}.
 		/// </summary>
 		internal static System.Drawing.Size toolStripStatusLabel4_Size {
 			get {
@@ -1192,16 +1586,6 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Windows.Forms.AnchorStyles similar to Top, Bottom, Left, Right.
-		/// </summary>
-		internal static System.Windows.Forms.AnchorStyles Windowslist_Anchor {
-			get {
-				object obj = ResourceManager.GetObject("Windowslist.Anchor", resourceCulture);
-				return ((System.Windows.Forms.AnchorStyles)(obj));
-			}
-		}
-		
-		/// <summary>
 		///   Looks up a localized resource of type System.Boolean similar to False.
 		/// </summary>
 		internal static bool Windowslist_Enabled {
@@ -1212,7 +1596,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Point similar to {X=125,Y=52}.
+		///   Looks up a localized resource of type System.Drawing.Point similar to {X=128,Y=87}.
 		/// </summary>
 		internal static System.Drawing.Point Windowslist_Location {
 			get {
@@ -1222,27 +1606,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Int32 similar to 10.
-		/// </summary>
-		internal static int Windowslist_MaxDropDownItems {
-			get {
-				object obj = ResourceManager.GetObject("Windowslist.MaxDropDownItems", resourceCulture);
-				return ((int)(obj));
-			}
-		}
-		
-		/// <summary>
-		///   Looks up a localized resource of type System.Windows.Forms.RightToLeft similar to No.
-		/// </summary>
-		internal static System.Windows.Forms.RightToLeft Windowslist_RightToLeft {
-			get {
-				object obj = ResourceManager.GetObject("Windowslist.RightToLeft", resourceCulture);
-				return ((System.Windows.Forms.RightToLeft)(obj));
-			}
-		}
-		
-		/// <summary>
-		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=127, Height=21}.
+		///   Looks up a localized resource of type System.Drawing.Size similar to {Width=76, Height=21}.
 		/// </summary>
 		internal static System.Drawing.Size Windowslist_Size {
 			get {
@@ -1252,7 +1616,7 @@ namespace Windows_HOSTSPOT {
 		}
 		
 		/// <summary>
-		///   Looks up a localized resource of type System.Int32 similar to 2.
+		///   Looks up a localized resource of type System.Int32 similar to 32.
 		/// </summary>
 		internal static int Windowslist_TabIndex {
 			get {
